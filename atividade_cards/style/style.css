@@ -3,6 +3,7 @@ body{
     height: 100%;
     display: flex;
     background-image: url(./images/background01.jpg);
+    font-family: Heebo, sans-serif;
 }
     
 
@@ -23,6 +24,8 @@ div.card{
     width: 42%;
     height: 290px;
     margin: 25px;
+    min-width: 200px;
+    padding: 20px;
     
     border-radius: 10px;
     box-shadow: 10px 10px rgb(253, 192, 112);
@@ -72,4 +75,3 @@ div div button:hover{
     width: 15%;
     margin: 10px;
 }
-
